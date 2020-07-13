@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Menu_deslizante</string>
+    <string name="navigation_drawer_open">Abrindo menu de navegação</string>
+    <string name="navigation_drawer_close">Fechando menu de navegação</string>
+    <string name="nav_header_title">Gabriel dos Santos</string>
+    <string name="nav_header_subtitle">gabrieldossantos0788@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_encontro">Encontros</string>
+    <string name="menu_mensagem">Mensagens</string>
+    <string name="menu_social">Socializar</string>
+    <string name="menu_config">Configurações</string>
+</resources>

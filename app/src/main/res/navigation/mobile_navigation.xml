@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_perfil">
+
+    <fragment
+        android:id="@+id/nav_encontro"
+        android:name="com.example.menu_deslizante.ui.encontros.EncontrosFragment"
+        android:label="@string/menu_encontro"
+        tools:layout="@layout/fragment_encontros" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.menu_deslizante.ui.perfil.PerfilFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/nav_mensagem"
+        android:name="com.example.menu_deslizante.ui.mensagens.MensagensFragment"
+        android:label="@string/menu_mensagem"
+        tools:layout="@layout/fragment_mensagens" />
+
+    <fragment
+        android:id="@+id/nav_social"
+        android:name="com.example.menu_deslizante.ui.social.SocialFragment"
+        android:label="@string/menu_social"
+        tools:layout="@layout/fragment_social" />
+
+    <fragment
+        android:id="@+id/nav_config"
+        android:name="com.example.menu_deslizante.ui.configuração.ConfigFragment"
+        android:label="@string/menu_config"
+        tools:layout="@layout/fragment_config" />
+</navigation>
